@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "thrown",
+  "version": "${version}",
+  "name": "Thrown",
+  "description": "Throw any item in Minecraft!",
+  "authors": ["Thexiaoyu"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/thrown/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "Thexiaoyu.thrown.Thrown"
+    ],
+    "client": [
+      "Thexiaoyu.thrown.client.ThrownClient"
+    ],
+    "cardinal-components": [
+      "Thexiaoyu.thrown.player.ModComponents"
+    ]
+  },
+  "mixins": [
+    "thrown.mixins.json"
+  ],
+  "custom": {
+    "cardinal-components": [
+      "thrown:player_data"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "cardinal-components": ">=5.2.0"
+  }
+}
