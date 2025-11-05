@@ -1,5 +1,5 @@
 {
-  "item.thrown.kzzyc": "KZZYC",
+  "item.thrown.kzzyc": "java.lang.NullPointerException",
   "entity.thrown.thrown_item": "java.lang.NullPointerException",
   "key.throwitem": "切换投掷模式",
   "key.placeblock": "切换放置方块模式",
